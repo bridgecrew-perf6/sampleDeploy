@@ -31,7 +31,7 @@ const logger = createLogger({
     format: options.formatter,
     levels: config.npm.levels,
     transports: [
-        new transports.File(options.file),
+        // new transports.File(options.file),
         new transports.Console(options.console)
     ],
     exitOnError: false

@@ -6,16 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vinod0111/sasya-swastha-phalaka.git"
-  },
   "author": "vinod",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vinod0111/sasya-swastha-phalaka/issues"
-  },
-  "homepage": "https://github.com/vinod0111/sasya-swastha-phalaka#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
