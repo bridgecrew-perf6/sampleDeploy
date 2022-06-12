@@ -1,0 +1,33 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "application for frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinod0111/sasya-swastha-phalaka.git"
+  },
+  "author": "vinod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinod0111/sasya-swastha-phalaka/issues"
+  },
+  "homepage": "https://github.com/vinod0111/sasya-swastha-phalaka#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "http-status": "^1.5.2",
+    "mongoose": "^6.3.6",
+    "morgan": "^1.10.0",
+    "morgan-json": "^1.1.0",
+    "winston": "^3.7.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

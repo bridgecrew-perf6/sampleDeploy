@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head.ejs', {title: "home"}) %> 
+</head>
+<body>
+    <%- include('../partials/header.ejs') %>
+    <main>
+        <div class="container padding">
+            <div class="row text-center">
+                <div class="display-4">
+                    <b>Sensor Data</b>
+                </div>
+            </div>
+            <%- include('../partials/sensorData.ejs') %> 
+        </div>
+    </main>
+    <%- include('../partials/footer.ejs') %>
+</body>
+</html>
