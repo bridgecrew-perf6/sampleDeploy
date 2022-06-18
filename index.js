@@ -9,6 +9,7 @@ const logger = require('./api/v1/config/loggers/logger')
 const httpLogger = require('./api/v1/config/loggers/http.logger')
 const errorHandler = require('./api/v1/middlewares/error.handler')
 
+app.use(express.json())
 app.use(httpLogger)
 app.use(express.static(path.join(__dirname, '/api/v1/public')))
 app.use(express.json())
@@ -16,7 +17,7 @@ app.use(express.json())
 app.set('view engine', 'ejs');
 
 const homeRouter = require('./api/v1/routes/home.routes')
-const dataroutes = require('./api/v1/routes/data.routes')
+const dataroutes = require('./api/v1/routes/sensorData.routes')
 //mongo test
 // const mongo = require('./api/v1/database/connect')
 

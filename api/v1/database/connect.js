@@ -17,7 +17,10 @@ async function main() {
         // .then(data => {logger.warn( JSON.stringify(data))})
         // .catch(err => {logger.error(err)})
     })
-    .catch(err => {throw new DatabaseError(err)})
+    .catch(err => {
+        // console.log(err);
+        throw new DatabaseError(err);
+    })
 
 }
 main()
